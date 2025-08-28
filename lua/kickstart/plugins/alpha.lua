@@ -182,7 +182,7 @@ if vim.api.nvim_exec('echo argc()', true) == '0' then
   -- Sections for Alpha.
   vim.api.nvim_set_hl(0, 'AlphaDoom', {
     fg = '#A20000',
-    bg = '#A20000',
+    bg = 'NONE',
     bold = true,
   })
   local header = {
